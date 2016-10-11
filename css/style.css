@@ -1,0 +1,57 @@
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}	
+	to{ 
+		transform: rotate(360deg);
+	}
+}
+
+div{
+	position: relative;
+}
+
+.ion-gear-b{
+	display: inline-block;
+	animation-name: rotate;
+	animation-duration: 20s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+.gear1{
+    font-size: 200px;
+    top: 87px;
+    left: 226px
+}
+
+.gear2{
+    font-size: 50px;
+    top: 196px;
+    left: 381px;
+}
+
+.gear3{
+    font-size: 20px;
+    top: 202px;
+    left: 433px;
+    animation-direction: alternate-reverse;
+}
+
+.gear4{
+    font-size: 50px;	
+    top: 163px;
+    left: 405px;
+}
+
+.gear5{
+    font-size: 250px;
+    top: 78px;
+    left: 461px;
+    animation-direction: alternate-reverse;
+}
+
+
+
